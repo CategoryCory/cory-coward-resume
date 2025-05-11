@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1746943065.83141 "resume.xdv" "resume.pdf" "resume" 1746943066.06458 0
-  "resume.xdv" 1746943065.76256 96180 da58fd3e00253acc7ae2009a54b9eec0 "xelatex"
+["xdvipdfmx"] 1746991409.60102 "resume.xdv" "resume.pdf" "resume" 1746991409.82678 0
+  "resume.xdv" 1746991409.53421 95892 4c2e4197fbf714a0d2634b7942155b46 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1746943063.79644 "/home/cory/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1746943066.06231 0
+["xelatex"] 1746991408.32042 "/home/cory/resumes/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1746991409.8247 0
   "/etc/texmf/web2c/texmf.cnf" 1746674615.99824 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cory/resume/cory_coward_resume/resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
+  "/home/cory/resumes/resume/cory_coward_resume/resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -100,10 +100,6 @@
   "/usr/share/texlive/texmf-dist/tex/latex/environ/environ.sty" 1399239813 4378 f429f0da968c278653359293040a8f52 ""
   "/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty" 1651520503 5272 112d4d28aabeaf80b024579d24539fa6 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty" 1651520503 8112 16dbb19fca3f2df864fea49874356f35 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd" 1651520503 1252 7d3d048ff49487829dda03827af0f823 ""
-  "/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd" 1651520503 1075 f2a667118f91efc0123417dfb6a39807 ""
   "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1642282977 162076 2f6d31c4632f2730c57b9c0fda038e15 ""
   "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
   "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty" 1642282977 1656 7e824878bad4df5a3e8bba4e463d9126 ""
@@ -163,8 +159,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1746674770 10841736 fa1fd5e3b635852f585cd032b2a8ab62 ""
-  "awesome-cv.cls" 1746943063.60955 30938 8d5e22ebf9fdeaec98e059524093d08f ""
-  "resume.aux" 1746943065.76156 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
+  "awesome-cv.cls" 1746991408.1242 29973 c3eda5be5c102743e0b0fc1ee8fc3ce1 ""
+  "resume.aux" 1746991409.53321 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
   "resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
   "resume/competencies.tex" 1746940870.99655 1227 3a2c999aea064d2e70383259d473d9ad ""
   "resume/education.tex" 1746942705.79053 719 124d815612aa47257bbb8cd3ae089c38 ""
