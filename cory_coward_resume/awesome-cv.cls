@@ -88,6 +88,8 @@
 }
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
+% Needed for footer
+\usepackage{lastpage}
 
 \usepackage{fontspec}
 
@@ -172,8 +174,8 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1.1em}\headerfont\bfseries\color{text} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1.1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{26pt}{1.1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{26pt}{1.1em}\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{11pt}{1.1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{9pt}{1em}\headerfont\itshape\color{lighttext} #1}}
 \newcommand*{\headersocialstyle}[1]{{\fontsize{9pt}{1em}\headerfont\color{text} #1}}
@@ -181,7 +183,7 @@
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
 \newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
-\newcommand*{\paragraphstyle}{\fontsize{10pt}{1.1em}\bodyfont\color{text}}
+\newcommand*{\paragraphstyle}{\raggedright\fontsize{10pt}{1.1em}\bodyfont\color{text}}
 \newcommand*{\summarystyle}[1]{{\fontsize{10pt}{1.1em}\bodyfont\upshape\color{text}#1}}
 
 % For elements of entry
@@ -666,7 +668,7 @@
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
-  \vspace{\acvSectionContentTopSkip}
+  % \vspace{\acvSectionContentTopSkip}
   \begin{center}
 }{%
   \end{center}
@@ -674,7 +676,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<summary>}{<description>}
 \newcommand*{\cventry}[6]{
-  \vspace{-1mm}
+  \vspace{1mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -763,13 +765,13 @@
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
-  \begin{justify}
+  \begin{raggedright}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
-  \end{justify}
+  \end{raggedright}
   \vspace{-4.0mm}
 }
 
@@ -777,7 +779,7 @@
 \newenvironment{cvcompetencies}{
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep, format=\competencystyle]
     \setlength\parskip{0pt}
-    \renewcommand{\labelitemi}{\bullet}
+    \raggedright\renewcommand{\labelitemi}{\bullet}
 }{
   \end{itemize}
 }

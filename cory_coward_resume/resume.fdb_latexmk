@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1746991409.60102 "resume.xdv" "resume.pdf" "resume" 1746991409.82678 0
-  "resume.xdv" 1746991409.53421 95892 4c2e4197fbf714a0d2634b7942155b46 "xelatex"
+["xdvipdfmx"] 1747004486.25514 "resume.xdv" "resume.pdf" "resume" 1747004486.59923 0
+  "resume.xdv" 1747004486.12568 68372 65db7bd0c2b6b818f39210f74d759a5e "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1746991408.32042 "/home/cory/resumes/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1746991409.8247 0
+["xelatex"] 1747004484.01233 "/home/cory/resumes/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1747004486.59549 0
   "/etc/texmf/web2c/texmf.cnf" 1746674615.99824 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cory/resumes/resume/cory_coward_resume/resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
+  "/home/cory/resumes/resume/cory_coward_resume/resume.tex" 1747004483.74366 3348 a2b298ecbe14defb7b23a2f22fd7eb75 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -125,6 +125,9 @@
   "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1705955748 6565 cfd9fd0a1d5f5ad985151778771ff7a9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty" 1696969620 4674 15ab6bdfc97f65b00e59c2867851f715 ""
   "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1696969620 9327 c30c00c0072edba199ede5889311aaa9 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty" 1697402539 2868 94ccb360e6e4443cad221f78a5cbb6a8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage2e.sty" 1697402539 2720 a038de4136aa4a721c8ef0dc226ae6b5 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpagemodern.sty" 1697402539 9166 74f0d39535736e850fd2f2796fd37674 ""
   "/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty" 1615762720 4288 94714aa7f535440f33181fec52a31963 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty" 1601326656 1090 bae35ef70b3168089ef166db3e66f5b2 ""
   "/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty" 1673816307 373 00b204b1d7d095b892ad31a7494b0373 ""
@@ -159,12 +162,12 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1746674770 10841736 fa1fd5e3b635852f585cd032b2a8ab62 ""
-  "awesome-cv.cls" 1746991408.1242 29973 c3eda5be5c102743e0b0fc1ee8fc3ce1 ""
-  "resume.aux" 1746991409.53321 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
-  "resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
-  "resume/competencies.tex" 1746940870.99655 1227 3a2c999aea064d2e70383259d473d9ad ""
+  "awesome-cv.cls" 1747004369.69595 30048 b3703ec3000b9b3e63fb90eaeaf51199 ""
+  "resume.aux" 1747004486.12368 167 d81b28ca1294ee2a5bf495f94c72e74c "xelatex"
+  "resume.tex" 1747004483.74366 3348 a2b298ecbe14defb7b23a2f22fd7eb75 ""
+  "resume/competencies.tex" 1747003643.94856 1227 3a2c999aea064d2e70383259d473d9ad ""
   "resume/education.tex" 1746942705.79053 719 124d815612aa47257bbb8cd3ae089c38 ""
-  "resume/experience.tex" 1746938745.80838 9529 378fae9a071c9d29b2fa5131e6410fc7 ""
+  "resume/experience.tex" 1746998623.36482 5989 1833491a629f6515b9f96677930cf600 ""
   "resume/skills.tex" 1746941836.45381 776 e2c11f425d6e0d66956f4bb4eb538517 ""
   "resume/summary.tex" 1746933108.80105 1050 e6dce8bac21fac2dde45f7c133b30fb5 ""
   (generated)
