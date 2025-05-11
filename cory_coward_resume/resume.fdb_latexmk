@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1746939187.64479 "resume.xdv" "resume.pdf" "resume" 1746939187.89662 0
-  "resume.xdv" 1746939187.56074 84172 1ffcb44bc5ad7e13af853c0dd0848c7e "xelatex"
+["xdvipdfmx"] 1746943065.83141 "resume.xdv" "resume.pdf" "resume" 1746943066.06458 0
+  "resume.xdv" 1746943065.76256 96180 da58fd3e00253acc7ae2009a54b9eec0 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1746939185.55463 "/home/cory/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1746939187.89457 0
+["xelatex"] 1746943063.79644 "/home/cory/resume/cory_coward_resume/resume.tex" "resume.xdv" "resume" 1746943066.06231 0
   "/etc/texmf/web2c/texmf.cnf" 1746674615.99824 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cory/resume/cory_coward_resume/resume.tex" 1746939183.33772 4033 62dbe56fc6b4b72589595c36068a8898 ""
+  "/home/cory/resume/cory_coward_resume/resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -163,11 +163,13 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1746674770 10841736 fa1fd5e3b635852f585cd032b2a8ab62 ""
-  "awesome-cv.cls" 1746938900.4722 31209 d50571d2dc3961987438c7d0a358d62f ""
-  "resume.aux" 1746939187.55974 72 8c65bdc4d59188fb5b97343f16100895 "xelatex"
-  "resume.tex" 1746939183.33772 4033 62dbe56fc6b4b72589595c36068a8898 ""
-  "resume/education.tex" 1746939010.80779 740 2419963aa5c16837ff99359bf68af24f ""
+  "awesome-cv.cls" 1746943063.60955 30938 8d5e22ebf9fdeaec98e059524093d08f ""
+  "resume.aux" 1746943065.76156 72 e3975f61bf3f389acae1a5409d20f2c6 "xelatex"
+  "resume.tex" 1746941509.08921 4091 e81d7880c1dabb4201c1bd1262d7cbde ""
+  "resume/competencies.tex" 1746940870.99655 1227 3a2c999aea064d2e70383259d473d9ad ""
+  "resume/education.tex" 1746942705.79053 719 124d815612aa47257bbb8cd3ae089c38 ""
   "resume/experience.tex" 1746938745.80838 9529 378fae9a071c9d29b2fa5131e6410fc7 ""
+  "resume/skills.tex" 1746941836.45381 776 e2c11f425d6e0d66956f4bb4eb538517 ""
   "resume/summary.tex" 1746933108.80105 1050 e6dce8bac21fac2dde45f7c133b30fb5 ""
   (generated)
   "resume.aux"

@@ -195,10 +195,13 @@
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\scshape\color{text} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\scshape\color{text} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{10pt}{1.1em}\bodyfont\upshape\color{text} #1}}
+
+% Core competency elements
+\newcommand*{\competencystyle}[1]{{\fontsize{10pt}{1.1em}\bodyfont\upshape\color{text} #1}}
 
 % For elements of subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\mdseries\color{graytext} #1}}
@@ -215,7 +218,7 @@
 
 % For elements of skill
 \newcommand*{\skilltypestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\skillsetstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\color{text} #1}}
+\newcommand*{\skillsetstyle}[1]{{\fontsize{10pt}{1em}\bodyfont\color{text} #1}}
 
 % For elements of the cover letter
 \newcommand*{\lettersectionstyle}[1]{{\fontsize{14pt}{1em}\bodyfont\bfseries\color{text}\@sectioncolor #1}}
@@ -680,7 +683,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<summary>}{<description>}
 \newcommand*{\cventry}[6]{
-  \vspace{2mm}
+  \vspace{-1mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
@@ -705,24 +708,6 @@
       }
   \end{tabular*}
 }
-
-% \newcommand*{\cventry}[5]{%
-%   \vspace{2mm}
-%   \setlength\tabcolsep{0pt}
-%   \setlength{\extrarowheight}{0pt}
-%   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
-%     \ifempty{#2#3}
-%       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-%       {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-%       \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
-%     \ifstrempty{#5}
-%       {}
-%       {
-%         \noalign{\vskip 2mm}
-%         \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}} \\
-%       }
-%   \end{tabular*}%
-% }
 
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
@@ -768,20 +753,20 @@
 
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
-  \vspace{\acvSectionContentTopSkip}
-  \vspace{-2.0mm}
+  \vspace{1mm}
+  \setlength\tabcolsep{0pt}
+  \setlength{\extrarowheight}{0pt}
   \begin{center}
-    \setlength\tabcolsep{1ex}
-    \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth}}
 }{%
     \end{tabular*}
   \end{center}
 }
+
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{%
-	\skilltypestyle{#1} & \skillsetstyle{#2} \\
+	\skilltypestyle{#1:} \skillsetstyle{#2} \\
 }
 
 % Define an environment for cvitems(for cventry)
@@ -795,6 +780,15 @@
   \end{itemize}
   \end{justify}
   \vspace{-4.0mm}
+}
+
+% Define an environment for core competencies
+\newenvironment{cvcompetencies}{
+  \begin{itemize}[leftmargin=2ex, nosep, noitemsep, format=\competencystyle]
+    \setlength\parskip{0pt}
+    \renewcommand{\labelitemi}{\bullet}
+}{
+  \end{itemize}
 }
 
 
